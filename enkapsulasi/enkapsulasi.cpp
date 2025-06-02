@@ -8,5 +8,7 @@ class remoteLampu {
         void setSaklarNo(int i, string value) {
             saklarNo[i] = value;
         }
-        
+        string getSaklarNo(int i) {
+            return saklarNo[i];
+        }
 };
